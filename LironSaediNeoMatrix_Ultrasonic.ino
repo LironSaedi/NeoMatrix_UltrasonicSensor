@@ -18,9 +18,9 @@ void flash()
     {
       matrix.drawPixel(i, j, matrix.Color(255, 0, 0));
       matrix.show();
-      delay(100);
+      delay(1);
       matrix.drawPixel(i, j, matrix.Color(255, 0, 0));
-      delay(100);
+      delay(1);
       
     }
   }
@@ -49,11 +49,12 @@ void loop()
       matrix.drawPixel(i, j, matrix.Color(255 - value, 255 - value, 0));
     }
   }
-  if (value = 0)
+  /*
+  if (value = 3)
   {
     flash();
   }
-
+*/
     matrix.show();
 }
  
